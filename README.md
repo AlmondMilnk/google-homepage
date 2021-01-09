@@ -6,5 +6,5 @@ placed and alligned using HTML and CSS.
 
 I utilized flexbox in order to achieve a basic version of the google layout without functionality.
 
-The test deployment can be found Here(https://almondmilnk.github.io/google-homepage/)
+The test deployment can be found [Here](https://almondmilnk.github.io/google-homepage/)
 
