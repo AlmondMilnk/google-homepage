@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    #viewport {
+        margin-top:0;
+        color: #202124;
+    }
+    #navigation { 
+        display: flex;
+        float: right; 
+        font-size:13px;
+    }
+    #square {
+        background-image: url('//ssl.gstatic.com/gb/images/i1_1967ca6a.png');
+        background-size: 528px 68px;
+    }
+    .navitem {
+        display: inline;
+        padding: 8px;
+    }
+    #center {
+        padding-top:140px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+    }
+    #google{
+        margin:0 auto;
+    }
+    #searcher{
+        margin-top:20px;
+        padding:0;
+        display: flex;
+        justify-content: center;
+    }
+    #search{
+        width: 500px;
+        border-color: rgba(199, 199, 199,0.2);
+        padding:5px;
+    }
+    #buttons{
+        margin-top: 20px;
+        width:100%;
+        display: flex;
+        justify-content: center;
+           
+    }
+    .button{
+        margin:10px;
+        padding:5px;
+        background-color: rgba(199, 199, 199,0.2);
+        opacity: 80%;
+        border-color:transparent;
+    }
+</style>
+<body>
+    <div id="viewport">
+        <div id="navigation">            
+            <li class="navitem">Gmail</li>
+            <li class="navitem">Images</li>
+            <li class="navitem">navbox</li>
+            <li class="navitem">PFP</li>           
+        </div>
+
+        <div id="center">
+            <img id="google" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+        </div>  
+
+        <div id="searcher">
+            <input id="search"  autofocus="" ></input>
+        </div>
+
+        <div id="buttons">
+            <button class="button">Google Search</button>
+            <button class="button">I'm Feeling Lucky</button>
+        </div>
+    </div>  
+</body>
+</html>
